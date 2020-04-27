@@ -1,2 +1,2 @@
 # codewars
-My solutions for codewars's Katas
+My solutions for codewars Katas to practice JavaScript and Regex Fundamentals
