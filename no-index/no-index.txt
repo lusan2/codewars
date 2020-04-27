@@ -1,0 +1,9 @@
+Create a regular expression to identify a url with the following structure
+
+https://www.domain.com/events/post-name/year-month-day/
+
+Add to the .htacces of the web and mark as noindex with the corresponding structure.
+
+^https?:\/\/[a-zA-Z0-9]{1,61}\.[a-zA-Z]{2,}\/eventos\/[a-zA-Z0-9-]{1,1100}\/[0-9-]{1,10}\/
+
+You can proved it with regex101.com
